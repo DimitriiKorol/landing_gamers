@@ -1,0 +1,463 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.clearfix{
+  clear: both;
+}
+
+body {
+  background-color: #ffffff;
+  color: #999999;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-color: #f7f7f7;
+  height:163px;
+  padding-top: 13px;
+  overflow: hidden;
+}
+
+.logo-header{
+  min-height: 83px;
+  background-color: #4a4a4a;
+  text-align: center;
+  display: flex;
+}
+
+.logo-content{
+  display: flex;
+  margin: auto;
+  min-width: 986px;
+}
+
+.logo{
+  width: 169px;
+  display: block;
+  float: left;
+}
+
+.logo-historical{
+  width: 169px;
+  height: 29px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 22.36px;
+  float: left;
+}
+
+.logo-games{
+  height: 12px;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.36px;
+  text-transform: uppercase;
+  letter-spacing: 29px;
+  float: left;
+}
+
+.header-phone{
+  margin-left: 158px;
+  float: left;
+  display: flex;
+}
+
+.header-contacts-img{
+  margin: auto 14px auto 0;
+  display: block;
+  float: left;
+}
+
+.header-contacts-text{
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  float: left;
+  margin: auto;
+}
+
+.header-mail{
+  display: block;
+  margin: auto 0 auto 39px;
+  float: left;
+}
+
+.header-form{
+  float: left;
+  margin-left: 100px;
+}
+
+.header-search{
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  height: 38px;
+  float: left;
+
+}
+
+.header-search::placeholder{
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  padding-left: 16px;
+}
+
+.header-search-button{
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  text-align: center;
+  float: left;
+  padding: 10px 15px 9px 15px;
+  border-left: none;
+  display: block;
+}
+
+nav{
+  text-align: center;
+  height: 78px;
+  border-bottom: 1px solid #000000;
+  line-height: 78px;
+}
+
+nav > ul{
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0 auto;
+}
+
+.nav-tabs{
+  line-height: 78px;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: #8c8c8c;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 77px;
+  display: block;
+  padding: 0 1em;
+}
+
+.nav-links:hover{
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.contacts {
+  min-height: 663px;
+  background-color: #f7f7f7;
+  overflow: hidden;
+  position: relative;
+}
+
+.contacts-container{
+  overflow: hidden;
+  margin: 174px auto 167px;
+  max-width: 971px;
+}
+
+.contacts-header{
+  color: #f44336;
+  font-family: "Poppins - Semi Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  margin-bottom: 97px;
+  text-align: center;
+}
+
+.contacts-left{
+  float: left;
+  max-width: 386px;
+  margin-top: 23px;
+  margin-right: 115px;
+}
+
+.contacts-title{
+  color: #f44336;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 26px;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+
+.contacts-text{
+  color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+}
+
+.email-contacts{
+  color: #f44336;
+  text-decoration: none;
+}
+
+.contacts-form{
+  float: right;
+  display: block;
+  width: 470px;
+}
+
+.contacts-form-input{
+  width: 452px;
+  height: 42px;
+  border: 1px solid #000000;
+  color: #838383;
+  background-color: inherit;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 42px;
+  padding-left: 16px;
+  margin-bottom: 21px;
+}
+
+.contacts-form-textarea{
+  width: 452px;
+  height: 168px;
+  border: 1px solid #000000;
+  color: #838383;
+  background-color: inherit;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-left: 16px;
+  padding-top: 13px;
+  margin-bottom: 19px;
+}
+
+.contacts-submit{
+  width: 140px;
+  height: 40px;
+  background-color: #f44336;
+  color: #ffffff;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 0;
+}
+
+.contacts-submit:hover{
+  box-shadow: 0 0 3px rgba(0, 0, 0, .8);
+}
+
+.contacts-submit:active{
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.route{
+  text-align: center;
+  background-color: #f7f7f7;
+  overflow: hidden;
+}
+
+.route-header{
+  color: #f44336;
+  font-family: "Poppins - Semi Bold", sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0 auto 104px;
+}
+
+.maps{
+  width: 970px;
+  height: 300px;
+  margin: 0 auto 174px;
+  border: 0;
+}
+
+footer{
+  height: 71px;
+  background-color: #000000;
+  text-align: center;
+}
+
+.footer-text{
+  color: #ffffff;
+  font-family: "Arial Narrow", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 71px;
+}
+
+.copyauthor{
+  font-weight: 400;
+  color: #f44336;
+}
+
+/*Product*/
+
+.product{
+  min-height: 767px;
+  overflow: hidden;
+  background-color: #f7f7f7;
+}
+
+.product-container{
+  max-width: 970px;
+  margin: 175px auto 178px;
+  overflow: hidden;
+}
+
+.product-gallery{
+  float: left;
+  max-width: 470px;
+  margin-right: 30px;
+}
+
+.product-screen{
+
+}
+
+.product-screen-mini{
+  width: 86px;
+  height: 63px;
+  margin: 41px 10px 0;
+}
+
+.product-screen-mini:hover{
+  width: 120px;
+  height: 87px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.product-desc{
+  overflow: hidden;
+}
+
+.product-title{
+color: #000000;
+font-family: "Poppins", sans-serif;
+font-size: 36px;
+font-weight: 500;
+line-height: 36px;
+text-align: center;
+}
+
+.product-title>b{
+  color: #f44336;
+  font-weight: 500;
+}
+
+.product-price{
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 62px;
+  font-weight: 300;
+  text-align: center;
+  margin: 21px auto 15px;
+}
+
+.product-buy{
+  width: 470px;
+  height: 62px;
+  background-color: #f44336;
+  text-align: center;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 62px;
+  border: 0;
+  margin-bottom: 32px;
+}
+
+.product-buy:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+}
+
+.product-buy:active{
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, .8);
+}
+
+.product-desc-text{
+  color: #999999;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+/*Gallery*/
+.ourGallery{
+  min-height: 684px;
+  background-color: #e3e3e3;
+  overflow: hidden;
+}
+
+.ourGallery-container{
+  margin: 49px auto;
+}
+
+.ourGallery-header{
+  color: #f44336;
+  font-family: "Poppins", sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: center;
+}
+
+.ourGallery-container>ul{
+  margin-top: 92px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.ourGallery-container>ul>li{
+  margin: 0 15px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.gallery-title{
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  min-height: 40px;
+}
+
+.gallery-buy{
+  display: block;
+  width: 130px;
+  height: 30px;
+  background-color: #f44336;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 30px;
+  text-decoration: none;
+  margin: 7px auto;
+}
+
+.gallery-buy:hover{
+  box-shadow: 0 0 2px rgba(0, 0, 0, .8);
+}
+
+.gallery-buy:active{
+  box-shadow: inset 0 0 3px rgba(0, 0, 0, .8);
+}
